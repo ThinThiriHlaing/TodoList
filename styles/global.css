@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  height: 700px;
+  background-color: rgba(39, 157, 157, 0.558);
+  margin: 20px auto;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+h1 {
+  padding: 15px 0 0 30px;
+}
+.input > input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.input > button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: aqua;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.todo {
+  padding-left: 20px;
+}
+
+.list {
+  padding-left: 30px;
+  padding-top: 1rem;
+}
+
+.list-part {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 10px;
+  border: none;
+  background-color: aqua;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-right: 5px;
+}
+
+.auto-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
